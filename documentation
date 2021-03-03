@@ -1,0 +1,44 @@
+FRONTEND
+
+npx create-react-app frontend
+cd frontend
+npm start
+
+resources:
+
+rfce -> function components in VSC
+https://bootswatch.com/
+https://react-bootstrap.github.io/components/navbar/
+https://cdnjs.com/
+
+dependencies:
+
+npm install react-router-dom react-router-bootstrap
+npm install axios
+
+BACKEND
+
+pip install virtualenv
+virtualenv myenv
+myenv\scripts\activate
+pip install django 
+django-admin startproject backend
+cd backend
+python manage.py runserver
+python manage.py startapp base
+python manage.py migrate
+
+resources: 
+
+https://www.django-rest-framework.org/ 
+https://pypi.org/project/django-cors-headers/
+
+dependencies: 
+
+pip install axios
+pip install django-cors-headers
+
+
+NOTES
+
+> Section 3, video 13. Fetching data : Really important video; connects backend to frontend (CRUS)
